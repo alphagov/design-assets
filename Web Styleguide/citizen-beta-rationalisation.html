@@ -1,0 +1,760 @@
+<html>
+	<head>
+		<title>Typography</title>
+		
+		<style type="text/css">
+		  * {
+		    padding: 0;
+		    margin: 0;
+		    font: inherit;
+		  }
+		  
+		  body {
+		    min-width: 1200px;
+		    font-size: 9px;
+		    line-height: 10px;
+		    color: black;
+		    background: #f9f9f9;
+		    -webkit-font-smoothing: antialiased;
+		  }
+		  
+		  #wrapper {
+		    padding: 0 30px 40px 10px;
+		  }
+		  
+		  #gov-beta, #rationalised {
+		    width: 25%;
+		    float: left;
+		    padding: 0;
+		  }
+		  
+		  section {
+		    overflow: hidden;
+		    clear: both;
+		    min-height: 96px;
+		  }
+		  
+		  h1 {
+		    text-transform: uppercase;
+		    font-weight: bold;
+		    font-family: 'Lucida Grande';
+		    letter-spacing: 0.2em;
+		    padding: 20px 20px 5px;
+		  }
+		  
+		  h2 {
+		    color: red;
+		    font-family: 'Lucida Grande';
+		    letter-spacing: 0.2em;
+		    padding: 20px 20px 5px;
+		  }
+		  
+		  h2 strong {
+		    font-weight: bold;
+		  }
+		  
+		  p {
+		    float: left;
+		    margin: 0 20px;
+		    background-image: -webkit-linear-gradient(transparent 3px, #ddd 1px);
+        background-size: 100% 4px;
+        background-position: 0 -3px;
+		    border-bottom: 1px solid #ccc;
+		    white-space: nowrap;
+		    overflow: hidden;
+		  }
+		  
+		  p span {
+		    display: block;
+		    border: solid rgba(240, 0, 0, 0.2);
+		  }
+		  
+		  #gov-beta #gill-44 p {
+		    font-family: 'Gill Sans W01 Medium', 'Gill Sans', 'Gill Sans MT', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		    font-size: 44px;
+		    line-height: 48px;
+		  }
+		  
+		  #gov-beta #gill-32 p {
+		    font-family: 'Gill Sans W01 Medium', 'Gill Sans', 'Gill Sans MT', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		    font-size: 32px;
+		    line-height: 32px;
+		  }
+		  
+		  #gov-beta #gill-14 p {
+		    font-family: 'Gill Sans W01 Medium', 'Gill Sans', 'Gill Sans MT', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		    font-size: 14px;
+		    line-height: 24px;
+		    text-transform: uppercase;
+		    letter-spacing: 0.2em;
+		  }
+		  
+		  #gov-beta #helvetica-32 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 32px;
+		    line-height: 48px;
+		  }
+		  
+		  #gov-beta #helvetica-21 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 21px;
+		    line-height: 21px;
+		  }
+		  		  
+		  #gov-beta #helvetica-18 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 18px;
+		    line-height: 27px;
+		  }
+		  
+		  #gov-beta #helvetica-16 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 16px;
+		    line-height: 24px;
+		  }
+		  
+		  #gov-beta #helvetica-14 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 14px;
+		    line-height: 21px;
+		  }
+		  
+		  #gov-beta #helvetica-12 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 12px;
+		    line-height: 24px;
+		  }
+		  
+		  #gov-beta #helvetica-11 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 11px;
+		    line-height: 24px;
+		  }
+		  
+		  #gov-beta #helvetica-11-caps p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 11px;
+		    line-height: 24px;
+		    text-transform: uppercase;
+        letter-spacing: 0.2em;
+		  }
+		  
+		  #gov-beta #georgia-24 p {
+  		  font-family: Georgia;
+  		  font-size: 24px;
+  		  line-height: 36px;
+		  }
+		  
+		  #gov-beta #georgia-18 p {
+  		  font-family: Georgia;
+  		  font-size: 18px;
+  		  line-height: 27px;
+		  }
+		  
+		  #gov-beta #georgia-16 p {
+  		  font-family: Georgia;
+  		  font-size: 16px;
+  		  line-height: 24px;
+		  }
+		  
+		  
+		  
+		  
+		  
+		  
+		  #rationalised #gill-48 p {
+		    font-family: 'Gill Sans W01 Medium', 'Gill Sans', 'Gill Sans MT', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		    font-size: 48px;
+		    line-height: 48px;
+		  }
+		  
+		  #rationalised #gill-48 p span {
+        border-width: 3px 0 5px;
+      }
+		  
+		  #rationalised #gill-32 p {
+		    font-family: 'Gill Sans W01 Medium', 'Gill Sans', 'Gill Sans MT', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		    font-size: 32px;
+		    line-height: 32px;
+		  }
+		  
+		  #rationalised #gill-32 p span {
+        border-width: 5px 0 3px;
+      }
+		  
+		  #rationalised #gill-14 p {
+		    font-family: 'Gill Sans W01 Medium', 'Gill Sans', 'Gill Sans MT', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		    font-size: 14px;
+		    line-height: 16px;
+		    text-transform: uppercase;
+		    letter-spacing: 0.2em;
+		  }
+		  
+		  #rationalised #gill-14 p span {
+        border-width: 3px 0 5px;
+      }
+		  
+		  #rationalised #helvetica-32 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 32px;
+		    line-height: 32px;
+		  }
+		  
+		  #rationalised #helvetica-32 p span {
+        border-width: 4px 0 8px;
+      }
+		  
+		  #rationalised #helvetica-21 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 21px;
+		    line-height: 24px;
+		  }
+		  
+		  #rationalised #helvetica-21 p span {
+        border-width: 4px 0 4px;
+      }
+		  
+		  #rationalised #helvetica-18 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 18px;
+		    line-height: 24px;
+		  }
+		  
+		  #rationalised #helvetica-18 p span {
+        border-width: 2px 0 2px;
+      }
+		  
+		  #rationalised #helvetica-16 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 16px;
+		    line-height: 24px;
+		  }
+		  
+		  #rationalised #helvetica-16 p span {
+        border-width: 2px 0 2px;
+      }
+		  
+		  #rationalised #helvetica-14 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 14px;
+		    line-height: 20px;
+		  }
+		  
+		  #rationalised #helvetica-14 p span {
+        border-width: 1px 0 3px;
+      }
+		  
+		  #rationalised #helvetica-12 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 12px;
+		    line-height: 16px;
+		  }
+		  
+		  #rationalised #helvetica-12 p span {
+        border-width: 4px 0 0;
+      }
+		  
+		  #rationalised #helvetica-11 p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 11px;
+		    line-height: 16px;
+		  }
+		  
+		  #rationalised #helvetica-11 p span {
+        border-width: 4px 0 4px;
+      }
+		  
+		  #rationalised #helvetica-11-caps p {
+		    font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		    font-size: 11px;
+		    line-height: 16px;
+		    text-transform: uppercase;
+		    letter-spacing: 0.2em;
+		  }
+		  
+		  #rationalised #helvetica-11-caps p span {
+        border-width: 4px 0 4px;
+      }
+		  
+		  #rationalised #georgia-24 p {
+		    font-family: Georgia;
+		    font-size: 24px;
+		    line-height: 36px;
+		  }
+		  
+		  #rationalised #georgia-24 p span {
+        border-width: 2px 0 2px;
+      }
+		  
+		  #rationalised #georgia-18 p {
+		    font-family: Georgia;
+		    font-size: 18px;
+		    line-height: 28px;
+		  }
+		  
+		  #rationalised #georgia-18 p span {
+        border-width: 0 0 0;
+      }
+		  
+		  #rationalised #georgia-16 p {
+		    font-family: Georgia;
+		    font-size: 16px;
+		    line-height: 24px;
+		  }
+		  
+		  #rationalised #georgia-16 p span {
+        border-width: 3px 0 1px;
+      }
+		  
+		</style>
+		
+	</head>
+	<body>
+	
+    <div id="wrapper">
+      
+      <div id="gov-beta">
+        <h1>Beta typography</h1>
+        <section id="gill-44">
+          <h2>
+            <strong>44</strong>
+            /
+            <strong>48</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="gill-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>32</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="gill-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>48</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-21">
+          <h2>
+            <strong>21</strong>
+            /
+            <strong>21</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-18">
+          <h2>
+            <strong>18</strong>
+            /
+            <strong>27</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>21</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-12">
+          <h2>
+            <strong>12</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-11">
+          <h2>
+            <strong>11</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-11-caps">
+          <h2>
+            <strong>11</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="georgia-24">
+          <h2>
+            <strong>24</strong>
+            /
+            <strong>36</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="georgia-18">
+          <h2>
+            <strong>18</strong>
+            /
+            <strong>27</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="georgia-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+      </div>
+    
+      <div id="rationalised">
+        <h1>Set to 4px baseline</h1>
+        <section id="gill-48">
+          <h2>
+            <strong>48</strong>
+            /
+            <strong>48</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="gill-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>32</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="gill-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>36</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-21">
+          <h2>
+            <strong>21</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-18">
+          <h2>
+            <strong>18</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>20</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-12">
+          <h2>
+            <strong>12</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-11">
+          <h2>
+            <strong>11</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="helvetica-11-caps">
+          <h2>
+            <strong>11</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="georgia-24">
+          <h2>
+            <strong>24</strong>
+            /
+            <strong>36</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="georgia-18">
+          <h2>
+            <strong>18</strong>
+            /
+            <strong>28</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+        <section id="georgia-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</p>
+        </section>
+      </div>
+    
+      <div id="rationalised">
+        <h1>with baseline offset</h1>
+        <section id="gill-48">
+          <h2>
+            <strong>48</strong>
+            /
+            <strong>48</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="gill-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>32</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="gill-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>36</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-21">
+          <h2>
+            <strong>21</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-18">
+          <h2>
+            <strong>18</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>20</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-12">
+          <h2>
+            <strong>12</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-11">
+          <h2>
+            <strong>11</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-11-caps">
+          <h2>
+            <strong>11</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="georgia-24">
+          <h2>
+            <strong>24</strong>
+            /
+            <strong>36</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="georgia-18">
+          <h2>
+            <strong>18</strong>
+            /
+            <strong>28</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="georgia-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+      </div>
+    
+      <div id="rationalised">
+        <h1>Remove similar styles</h1>
+        <section id="gill-48">
+          <h2>
+            <strong>48</strong>
+            /
+            <strong>48</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="gill-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>32</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="gill-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-32">
+          <h2>
+            <strong>32</strong>
+            /
+            <strong>36</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-21">
+          <h2>
+            <strong>21</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-18">
+          <h2>
+            <strong>18</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-14">
+          <h2>
+            <strong>14</strong>
+            /
+            <strong>20</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="helvetica-11-caps">
+          <h2>
+            <strong>11</strong>
+            /
+            <strong>16</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="georgia-24">
+          <h2>
+            <strong>24</strong>
+            /
+            <strong>36</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+        <section id="georgia-16">
+          <h2>
+            <strong>16</strong>
+            /
+            <strong>24</strong>
+          </h2>
+          <p><span>Welcome to INSIDE GOVERNMENT, the best place to find out how government works, see what it’s doing and get involved.</span></p>
+        </section>
+      </div>
+    
+    
+    </div>
+	
+	</body>
+</html>
